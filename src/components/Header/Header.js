@@ -12,11 +12,11 @@ const Header = ({ onPlaceChanged, onLoad }) => {
     <AppBar position="static">
       <Toolbar className={classes.toolbar}>
         <Typography variant="h5" className={classes.title}>
-          Travel Advisor
+          Safe Journey
         </Typography>
         <Box display="flex">
           <Typography variant="h6" className={classes.title}>
-            Explore new places
+            Enjoy Your Travel Journey
           </Typography>
           <Autocomplete onLoad={onLoad} onPlaceChanged={onPlaceChanged}>
             <div className={classes.search}>
